@@ -14,5 +14,3 @@ def app
 end
 
 Capybara.app = app
-
-ENV['RACK_ENV'] ||= 'test'
